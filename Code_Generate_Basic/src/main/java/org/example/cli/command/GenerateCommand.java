@@ -1,6 +1,7 @@
 package org.example.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
+import lombok.Data;
 import org.example.gererator.MainGenerator;
 import org.example.model.MainTemplateConfig;
 import picocli.CommandLine.Command;
@@ -8,6 +9,7 @@ import picocli.CommandLine.Option;
 
 import java.util.concurrent.Callable;
 
+@Data
 @Command(name = "generate", mixinStandardHelpOptions = true, description = "生成代码")
 public class GenerateCommand implements Callable<Integer> {
 

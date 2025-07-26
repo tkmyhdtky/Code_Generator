@@ -8,7 +8,7 @@ public class Main {
 
 //        args = new String[] { "--help" };
 //        args = new String[]{"generate", "-l", "-a", "-o"};
-        args = new String[]{"list"};
+//        args = new String[]{"list"};
         CommandExecutor commandExecutor = new CommandExecutor();
         commandExecutor.doExecute(args);
     }

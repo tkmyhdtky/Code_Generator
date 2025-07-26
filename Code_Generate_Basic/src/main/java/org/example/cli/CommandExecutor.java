@@ -23,7 +23,7 @@ public class CommandExecutor implements Runnable {
     }
 
     // 执行命令
-    public Integer doExecute(String[] args) {
-        return commandLine.execute(args);
+    public void doExecute(String[] args) {
+        commandLine.execute(args);
     }
 }
