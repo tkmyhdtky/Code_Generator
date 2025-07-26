@@ -5,7 +5,7 @@ import org.example.model.MainTemplateConfig;
 public class MainGenerator {
 
     public static void doGenerate(Object model) throws Exception {
-        String inputPath = "D:\\Code\\Code_Generate\\Generate_Demo_Project\\acm-template";
+        String inputPath = "D:\\Code\\Code_Generate\\Code_Generate_Basic\\acm-template";
         String outputPath = "D:\\Code\\Code_Generate\\";
 
         // 静态文件生成
